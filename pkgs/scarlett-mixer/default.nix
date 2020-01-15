@@ -35,7 +35,6 @@ stdenv.mkDerivation rec {
     homepage = https://github.com/x42/scarlett-mixer;
     license = with licenses; [ gpl2 ];
     platforms = platforms.linux;
-    maintainers = [ maintainers.thilobillerbeck ];
   };
 }
 
